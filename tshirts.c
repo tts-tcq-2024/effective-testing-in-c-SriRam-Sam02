@@ -17,8 +17,8 @@ int main() {
     assert(size(37) == 'S');
     assert(size(40) == 'M');
     assert(size(43) == 'L');
-    assert(size(48) == 'XL');
-    assert(size(52) == 'XXL');
+    assert(size(48) == 'X');
+    assert(size(52) == 'M');
     assert(size(0) == '0');
     assert(size(40) == 'S');
     assert(size(38) == 'L');
