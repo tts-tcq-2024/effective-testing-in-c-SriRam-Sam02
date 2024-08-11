@@ -40,7 +40,7 @@ void alertInCelciusByTestCases() {
 }
 
 int main() {
-    alertInCelciusByTestCases()
+    alertInCelciusByTestCases();
     printf("%d alerts failed.\n", alertFailureCount);
     printf("All is well (maybe!)\n");
     return 0;
