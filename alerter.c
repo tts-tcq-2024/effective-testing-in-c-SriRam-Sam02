@@ -35,8 +35,8 @@ void alertInCelciusByTestCases() {
     alertInCelcius(2000.0); 
     assert(alertFailureCount == 2); 
 
-    alertInCelcius(-10.0); // -40°F -> -40°C (low temperature, no failure)
-    assert(alertFailureCount == 3); // Still two failures, as this should not add to failure count
+    alertInCelcius(-10.0); 
+    assert(alertFailureCount == 3);
 }
 
 int main() {
